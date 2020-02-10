@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"diary.Photo"}],"uuid":"f9d045b765b64ade82e8f8243083bb1a"}
