@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"diary.Diary"}],"uuid":"cde5d5311f9b441399e7322f86a422c2"}
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"carddiary.Diary"}],"uuid":"29f24ed05d8f47a9967f0f6dbe0f749b"}

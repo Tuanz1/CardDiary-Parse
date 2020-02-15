@@ -1,13 +1,33 @@
 {
   "appId": "54ymWbY4tl0UeZnnLQ3OVvHykKxlRTydiBvpdJ1M",
   "masterKey": "7C2024K2TVlPBLDFRMowQ2xNEkrXw1dPTWYMM2Ds",
-  "clientKey":"GGmbVq9sjSw9uODaf1fHsqMn2AL8tooE0OkLJGRz",
-  "restAPIKey":"GGmbVq9sjSw9uODaf1fHsqMn2AL8tooE0OkLJGRz",
-  "javascriptKey":"GGmbVq9sjSw9uODaf1fHsqMn2AL8tooE0OkLJGRz",
+  "clientKey": "GGmbVq9sjSw9uODaf1fHsqMn2AL8tooE0OkLJGRz",
+  "restAPIKey": "GGmbVq9sjSw9uODaf1fHsqMn2AL8tooE0OkLJGRz", "javascriptKey": "GGmbVq9sjSw9uODaf1fHsqMn2AL8tooE0OkLJGRz",
   "appName": "CardDiary",
+  "filesAdapter": {
+    "module": "parse-server-alibaba-oss-adapter",
+    "options": {
+      "accessKeyId": "",
+      "accessKeySecret": "",
+      "region": "",
+      "bucket": "",
+      "internal": false,
+      "secure": false
+    }
+  },
+  "verifyUserEmails":true,
+  "emailAdapter": {
+    "module":"parse-server-zh-email-server",
+    "options": {
+			"host":"smtp.qq.com",
+			"port":465,
+			"email":"",
+			"password":""
+    }
+  },
   "cloud": "./cloud/main",
-  "databaseURI": "mongodb://127.0.0.1:27017/diary",
-  "port":1337,
-  "serverURL":"http://localhost:1337/parse",
-  "publicServerURL":"http://localhost:1337/parse"
+  "databaseURI": "mongodb://127.0.0.1:27017/carddiary",
+  "port": 1337,
+  "serverURL": "http://localhost:1337/parse",
+  "publicServerURL":"http://127.0.0.1:1337/parse"
 }

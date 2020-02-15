@@ -5,7 +5,13 @@
     "start": "parse-server config.json"
   },
   "dependencies": {
+    "nodemailer": "^6.4.2",
     "parse-server": "^3.9.0",
+    "parse-server-alibaba-oss-adapter": "git+https://git@github.com/rostopira/parse-server-alibaba-oss-adapter.git",
+    "parse-server-generic-email-adapter": "0.0.4",
+    "parse-server-sendmail-adapter": "^1.0.2",
+    "parse-server-zh-email-server": "^1.0.0",
+    "parse-zh-email-adapter": "^1.0.1",
     "request": "^2.88.0"
   }
 }
